@@ -8,11 +8,11 @@ public class CompactCharSequenceTest {
 
     @Before
     public void setup(){
-        ccs = new CompactCharSequence("12345"); //(byte[] data, int offset, int end)
+        ccs = new CompactCharSequence("12345"); //
     }
 
     @Test
-    public void TestToString(){
+    public void testToString(){
         assertEquals("12345",ccs.toString());
     }
 
